@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# <p align="center"> Dock-n-Flock </p>
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  <br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Description
+  Dock-n-Flock is your one stop shop to find both events (sporting, music, etc), and parking all in one conveienent location. When a user viists our page for the first time, he/she is prompted to sign in and create an account. Once the user has created an account he/she is able to search for a city and the event that they are thinking about attending. Dock-n-Flock utilizes the Ticketmaster API as well as the OpenStreetMap API to allow users to search for both events and parking in one location. The front-end uses React, Chakra UI, JWT, Bcrypt, Leaflet while the back-end relies on MongoDB/Mongoose, Apollo Express Server, and GraphQL.
+  <br />
+  
+  
+  
 
-## Available Scripts
+  ## :open_book: Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-In the project directory, you can run:
+  
 
-### `npm start`
+  ## :wrench: Installation
+  <a name="installation">Navigate to the directory on your local machine that you wish to run the app in and clone this repository. Once cloned, open the app and run ``npm i`` from the root of the application to install all necessary dependencies... To start the application run ``npm run dev``, navigate to your browser and start searching!</a>
+  <br />
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  ## :desktop_computer: Usage
+  <a name="usage">Anyone who is looking for events or parking!</a>
+  <br />
+  
+  
 
-### `npm test`
+  ## :scroll: License 
+  <a name="license">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</a>
+  <br />This application is licensed under MIT. All rights reserved.<br />[Please click here to view the license](https://opensource.org/licenses/MIT)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  ## :weight_lifting_man: Contribution
+  '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)'
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <br /><a name="contribution">Shawn Cochran, Amanda Hoshor, and Malcom Easton</a>
+  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ## :hourglass: Tests
+  <a name="tests">We did not run any tests during development</a>
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ## :grey_question: Questions
+  Please feel free to reach out to me with any questions<br />
+  :wave: Github: <a name = "questions">[cpesar](https://github.com/cpesar)</a>
+  <br />
+  :postbox: Email: <a name = "questions">cpesar1@gmail.com</a>
+  

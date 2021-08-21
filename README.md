@@ -1,3 +1,4 @@
+
 # <p align="center"> Dock-n-Flock </p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
@@ -10,6 +11,11 @@
   <br />
   
  [Dock-n-Flock](https://dock-and-flock.herokuapp.com/)
+  <br />
+  <br />
+  <br />
+ 
+ <img width="1433" alt="Dock-n-Flock" src="https://user-images.githubusercontent.com/77510555/130336361-05b60c2d-ef73-4b73-8198-4ceac48aded6.png">
   
   
   

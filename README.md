@@ -6,6 +6,10 @@
   ## Description
   Dock-n-Flock is your one stop shop to find both events (sporting, music, etc), and parking all in one conveienent location. When a user viists our page for the first time, he/she is prompted to sign in and create an account. Once the user has created an account he/she is able to search for a city and the event that they are thinking about attending. Dock-n-Flock utilizes the Ticketmaster API as well as the OpenStreetMap API to allow users to search for both events and parking in one location. The front-end uses React, Chakra UI, JWT, Bcrypt, Leaflet while the back-end relies on MongoDB/Mongoose, Apollo Express Server, and GraphQL.
   <br />
+  <br />
+  <br />
+  
+ [Dock-n-Flock](https://dock-and-flock.herokuapp.com/)
   
   
   

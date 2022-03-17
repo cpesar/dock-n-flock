@@ -1,5 +1,5 @@
-import React from 'react';
-import Login from './Login'
+import React from "react";
+import Login from "./Login";
 import {
   Flex,
   Stack,
@@ -7,48 +7,47 @@ import {
   StackDivider,
   Container,
   Text,
-  Link,
-  Link as ReachLink,
   List,
   ListItem,
-  ListIcon
+  ListIcon,
 } from "@chakra-ui/react";
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from "@chakra-ui/icons";
 
 function Home() {
   return (
     <Flex>
       <Stack
-        direction={['column', 'row']}
+        direction={["column", "row"]}
         // spacing={4}
-        divider={<StackDivider borderColor='blackAlpha.800' />}
+        divider={<StackDivider borderColor="blackAlpha.800" />}
         p={5}
       >
         <Box
           p={5}
-          borderRadius='50px'
-          shadow='md'
-          borderWidth='2px'
-          bgColor='whiteAlpha.800'
+          borderRadius="50px"
+          shadow="md"
+          borderWidth="2px"
+          bgColor="whiteAlpha.800"
         >
-          <Box
-            align='center'
-            justify='center'>
+          <Box align="center" justify="center">
             <Text
-              fontSize={{ base: '24px', md: '32px', lg: '48px' }}
-              fontWeight='bold'
-              borderBottom='1px'
+              fontSize={{ base: "24px", md: "32px", lg: "48px" }}
+              fontWeight="bold"
+              borderBottom="1px"
               pb={2}
             >
               Welcome to Dock'n'Flock!
             </Text>
           </Box>
           <Box
-            fontSize={{ base: '12px', md: '16px', lg: '20px' }}
+            fontSize={{ base: "12px", md: "16px", lg: "20px" }}
             pt={5}
-            pb={5}>
+            pb={5}
+          >
             <Container>
-              What is Dock'n'Flock? Only the best app to find your way around and locate areas to dock your flock! Log in or create an account to:
+              What is Dock'n'Flock? Only the best app to find your way around
+              and locate areas to dock your flock! Log in or create an account
+              to:
             </Container>
             <List mt={5} spacing={10}>
               <ListItem>
@@ -69,26 +68,26 @@ function Home() {
               </ListItem>
             </List>
             <Container mt={5}>
-              Never be without an event ticket, parking location or directions again when you are out and flocking about!
+              Never be without an event ticket, parking location or directions
+              again when you are out and flocking about!
             </Container>
           </Box>
         </Box>
         <Box>
           <Box
             p={5}
-            borderRadius='50px'
-            shadow='md'
-            borderWidth='2px'
-            bgColor='whiteAlpha.800'
+            borderRadius="50px"
+            shadow="md"
+            borderWidth="2px"
+            bgColor="whiteAlpha.800"
           >
             <Login />
-            <Box align='center' justify='center' pt={5}>
-            </Box>
+            <Box align="center" justify="center" pt={5}></Box>
           </Box>
         </Box>
       </Stack>
     </Flex>
-  )
+  );
 }
 
 export default Home;

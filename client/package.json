@@ -11,9 +11,6 @@
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@primer/octicons": "^15.0.1",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "apollo-boost": "^0.4.9",
     "axios": "^0.21.1",
     "framer-motion": "^4.1.17",
@@ -28,8 +25,7 @@
     "react-icons": "^4.2.0",
     "react-leaflet": "^3.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-dotenv && react-scripts start",

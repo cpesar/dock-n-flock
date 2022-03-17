@@ -29,8 +29,8 @@
   },
   "scripts": {
     "start": "react-dotenv && react-scripts start",
-    "build": "yarn build && yarn export",
-    "publish": "out",
+    "build": "react-dotenv && react-scripts build",
+    "publish": "out/",
     "test": "react-dotenv && react-scripts test",
     "eject": "react-scripts eject",
     "server": "node index.js",

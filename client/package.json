@@ -30,7 +30,6 @@
   "scripts": {
     "start": "react-dotenv && react-scripts start",
     "build": "react-dotenv && react-scripts build",
-    "publish": "out/",
     "test": "react-dotenv && react-scripts test",
     "eject": "react-scripts eject",
     "server": "node index.js",
